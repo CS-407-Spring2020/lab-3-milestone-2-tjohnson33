@@ -10,16 +10,9 @@
     tools:context="com.example.lab3milestone2.MainActivity">
     <!--display two Buttons and a FrameLayout to replace the Fragment's  -->
     <Button
-
-
         android:id="@+id/firstFragment"
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
-
-
-
         android:background="@color/button_background_color"
         android:text="First Fragment"
         android:textColor="@color/white"
@@ -31,7 +24,6 @@
         android:layout_marginTop="10dp"
         android:background="@color/button_background_color"
         android:text="Second Fragment"
-
         android:textColor="@color/white"
         android:textSize="20sp"/>
     <FrameLayout

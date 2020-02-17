@@ -12,12 +12,13 @@ public class SecondFragment extends Fragment {
 
     View view;
     Button secondButton;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 // Inflate the layout for this fragment
         view = inflater.inflate(R.layout.fragment_second, container, false);
 // get the reference of Button 
-        secondButton = (Button) view.findViewById(R.id.firstButton);
+        secondButton = (Button) view.findViewById(R.id.secondButton);
 // perform setOnClickListener on second Button
         secondButton.setOnClickListener(new View.OnClickListener() {
             @Override

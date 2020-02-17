@@ -12,6 +12,7 @@ public class FirstFragment extends Fragment {
 
     View view;
     Button firstButton;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 // Inflate the layout for this fragment
